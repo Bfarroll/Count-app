@@ -28,6 +28,15 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func Subtractone(sender: UIButton) {
+    
+     currentCount = currentCount - 1
+        startCounting.text = "You've gone back \(currentCount) times"
+        startCounting.textColor = UIColor.redColor()
+    
+    
+    
+    }
     
     
     
